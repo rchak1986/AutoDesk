@@ -2,12 +2,24 @@ package com.autodesk.hometest.ReverseSentence;
 
 public class ReverseSentence {
 	/**
+	 * Method to validate reversing of any given sentence
+	 * @param sentence <br> The input sentence as String
+	 * @param expectedString <br> The expected reversed phrase/ sentence as String
+	 * @return returns True if the sentence is reversed and matches with the expected outcome.
+	 */
+	public boolean validateReversing(String sentence, String expectedString){
+		if (reverseEachWordInSentence(sentence)!=null) 
+			return reverseEachWordInSentence(sentence).equals(expectedString);
+		else if (expectedString==null) return true;
+		else return false;
+	}
+	/**
 	 * Method to reverse (ignoring special character position) a sentence. 
 	 * <br><i>Assuming words are segregated by spaces.</i> 
 	 * @param sentence <br> Sentence as string.
 	 * @return Sentence with reversed words.
 	 */
-	public String reverseEachWordInSentence(String sentence){
+	private String reverseEachWordInSentence(String sentence){
 		if (sentence!=null && !sentence.isEmpty() && !sentence.trim().isEmpty()){
 			if (sentence.contains(" ")){
 				String [] words = sentence.split(" ");

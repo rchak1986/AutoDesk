@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="AutoDesk Reverse Sentence Test Suite" annotations="JDK" parallel="tests">
+  <test name="ReverseString">
+     <classes>
+       <class name="reverseSentenceTest.TestReverseSentence"/>
+     </classes>
+   </test>
+</suite>

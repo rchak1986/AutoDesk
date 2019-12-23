@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [AutoDesk Reverse Sentence Test Suite]" parallel="tests">
+  <test name="ReverseString(failed)" parallel="tests">
+    <classes>
+      <class name="reverseSentenceTest.TestReverseSentence">
+        <methods>
+          <include name="TC06ValidatePalindromes"/>
+        </methods>
+      </class> <!-- reverseSentenceTest.TestReverseSentence -->
+    </classes>
+  </test> <!-- ReverseString(failed) -->
+</suite> <!-- Failed suite [AutoDesk Reverse Sentence Test Suite] -->
