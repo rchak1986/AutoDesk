@@ -1,0 +1,11 @@
+this is a test file
+containing multiple lines
+
+
+and blank lines
+
+version point to be updated
+ADLMSDK_VERSION_POINT    =     1
+
+
+ADLMSDK_VERSION_POINT    =     abcd1

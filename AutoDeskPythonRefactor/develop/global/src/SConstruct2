@@ -1,0 +1,21 @@
+this is a test file
+containing multiple lines
+
+
+and blank lines
+
+version point to be updated
+config.version = version(
+	major      =    1,
+	minor=1,
+	point=1,
+	patch=1
+ )
+ 
+ 
+ config.version = version(
+	major      =    abcd1,
+	minor=1,
+	point=1,
+	patch=1
+ )
